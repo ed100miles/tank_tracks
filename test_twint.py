@@ -2,7 +2,7 @@ import twint
 import csv
 import requests
 import os
-import tqdm
+from tqdm import tqdm
 
 locations = {
     "donetsk": ('Donetsk', "48.0149464,37.897126"),
